@@ -1,0 +1,146 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.841918",
+   "Default View_TopLeft":"100,-302",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 2050 -y -170 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 2050 -y -150 -defaultsOSRD
+preplace port UART_0_0 -pg 1 -lvl 4 -x 2050 -y -130 -defaultsOSRD
+preplace port port-id_ad7606_busy_pin_i -pg 1 -lvl 0 -x 0 -y 550 -defaultsOSRD
+preplace port port-id_ad7606_convst_b_pin_o -pg 1 -lvl 4 -x 2050 -y 700 -defaultsOSRD
+preplace port port-id_ad7606_rd_n_pin_o -pg 1 -lvl 4 -x 2050 -y 720 -defaultsOSRD
+preplace port port-id_ad7606_rst_pin_o -pg 1 -lvl 4 -x 2050 -y 780 -defaultsOSRD
+preplace port port-id_ad7606_convst_a_pin_o -pg 1 -lvl 4 -x 2050 -y 760 -defaultsOSRD
+preplace port port-id_ad7606_cs_n_pin_o -pg 1 -lvl 4 -x 2050 -y 680 -defaultsOSRD
+preplace port port-id_m1_as5047p_spi_miso_pin_i -pg 1 -lvl 0 -x 0 -y 720 -defaultsOSRD
+preplace port port-id_m2_as5047p_spi_miso_pin_i -pg 1 -lvl 0 -x 0 -y 740 -defaultsOSRD
+preplace port port-id_m0_as5047p_spi_miso_pin_i -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_m3_as5047p_spi_miso_pin_i -pg 1 -lvl 0 -x 0 -y 760 -defaultsOSRD
+preplace port port-id_m0_as5047p_spi_ss_pin_o -pg 1 -lvl 4 -x 2050 -y -100 -defaultsOSRD
+preplace port port-id_m0_svpwm_w_pin_o -pg 1 -lvl 4 -x 2050 -y -190 -defaultsOSRD
+preplace port port-id_m0_svpwm_un_pin_o -pg 1 -lvl 4 -x 2050 -y 10 -defaultsOSRD
+preplace port port-id_m0_as5047p_spi_sck_pin_o -pg 1 -lvl 4 -x 2050 -y -80 -defaultsOSRD
+preplace port port-id_m0_svpwm_u_pin_o -pg 1 -lvl 4 -x 2050 -y -40 -defaultsOSRD
+preplace port port-id_m0_svpwm_v_pin_o -pg 1 -lvl 4 -x 2050 -y -20 -defaultsOSRD
+preplace port port-id_m0_as5047p_spi_mosi_pin_o -pg 1 -lvl 4 -x 2050 -y -60 -defaultsOSRD
+preplace port port-id_m0_svpwm_vn_pin_o -pg 1 -lvl 4 -x 2050 -y 300 -defaultsOSRD
+preplace port port-id_m0_svpwm_wn_pin_o -pg 1 -lvl 4 -x 2050 -y 60 -defaultsOSRD
+preplace port port-id_m1_as5047p_spi_ss_pin_o -pg 1 -lvl 4 -x 2050 -y 80 -defaultsOSRD
+preplace port port-id_m1_as5047p_spi_mosi_pin_o -pg 1 -lvl 4 -x 2050 -y 120 -defaultsOSRD
+preplace port port-id_m1_svpwm_w_pin_o -pg 1 -lvl 4 -x 2050 -y 180 -defaultsOSRD
+preplace port port-id_m1_svpwm_un_pin_o -pg 1 -lvl 4 -x 2050 -y 200 -defaultsOSRD
+preplace port port-id_m1_svpwm_u_pin_o -pg 1 -lvl 4 -x 2050 -y 140 -defaultsOSRD
+preplace port port-id_m1_as5047p_spi_sck_pin_o -pg 1 -lvl 4 -x 2050 -y 100 -defaultsOSRD
+preplace port port-id_m1_svpwm_v_pin_o -pg 1 -lvl 4 -x 2050 -y 160 -defaultsOSRD
+preplace port port-id_m2_as5047p_spi_ss_pin_o -pg 1 -lvl 4 -x 2050 -y 260 -defaultsOSRD
+preplace port port-id_m1_svpwm_vn_pin_o -pg 1 -lvl 4 -x 2050 -y 220 -defaultsOSRD
+preplace port port-id_m1_svpwm_wn_pin_o -pg 1 -lvl 4 -x 2050 -y 240 -defaultsOSRD
+preplace port port-id_m2_as5047p_spi_sck_pin_o -pg 1 -lvl 4 -x 2050 -y 280 -defaultsOSRD
+preplace port port-id_m3_svpwm_v_pin_o -pg 1 -lvl 4 -x 2050 -y 550 -defaultsOSRD
+preplace port port-id_m2_svpwm_u_pin_o -pg 1 -lvl 4 -x 2050 -y 350 -defaultsOSRD
+preplace port port-id_m2_svpwm_v_pin_o -pg 1 -lvl 4 -x 2050 -y 370 -defaultsOSRD
+preplace port port-id_m2_as5047p_spi_mosi_pin_o -pg 1 -lvl 4 -x 2050 -y 330 -defaultsOSRD
+preplace port port-id_m2_svpwm_vn_pin_o -pg 1 -lvl 4 -x 2050 -y 430 -defaultsOSRD
+preplace port port-id_m3_svpwm_vn_pin_o -pg 1 -lvl 4 -x 2050 -y 610 -defaultsOSRD
+preplace port port-id_m2_svpwm_wn_pin_o -pg 1 -lvl 4 -x 2050 -y 450 -defaultsOSRD
+preplace port port-id_m3_as5047p_spi_mosi_pin_o -pg 1 -lvl 4 -x 2050 -y 510 -defaultsOSRD
+preplace port port-id_m2_svpwm_w_pin_o -pg 1 -lvl 4 -x 2050 -y 390 -defaultsOSRD
+preplace port port-id_m2_svpwm_un_pin_o -pg 1 -lvl 4 -x 2050 -y 410 -defaultsOSRD
+preplace port port-id_m3_as5047p_spi_ss_pin_o -pg 1 -lvl 4 -x 2050 -y 470 -defaultsOSRD
+preplace port port-id_m3_as5047p_spi_sck_pin_o -pg 1 -lvl 4 -x 2050 -y 490 -defaultsOSRD
+preplace port port-id_m3_svpwm_w_pin_o -pg 1 -lvl 4 -x 2050 -y 570 -defaultsOSRD
+preplace port port-id_m3_svpwm_un_pin_o -pg 1 -lvl 4 -x 2050 -y 590 -defaultsOSRD
+preplace port port-id_m3_svpwm_u_pin_o -pg 1 -lvl 4 -x 2050 -y 530 -defaultsOSRD
+preplace port port-id_m3_svpwm_wn_pin_o -pg 1 -lvl 4 -x 2050 -y 630 -defaultsOSRD
+preplace portBus ad7606_data_pin_i -pg 1 -lvl 0 -x 0 -y 530 -defaultsOSRD
+preplace portBus ad7606_osx_pin_o -pg 1 -lvl 4 -x 2050 -y 740 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 330 -y -110 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -x 830 -y 0 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -x 830 -y -270 -defaultsOSRD
+preplace inst adc_top_0 -pg 1 -lvl 2 -x 830 -y 490 -defaultsOSRD
+preplace inst motor_ultra_top_0 -pg 1 -lvl 3 -x 1680 -y 270 -defaultsOSRD
+preplace netloc ad7606_busy_pin_i_0_1 1 0 2 50J 510 NJ
+preplace netloc ad7606_data_pin_i_0_1 1 0 2 NJ 530 NJ
+preplace netloc adc_top_0_ad7606_convst_a_pin_o 1 2 2 1080J 760 NJ
+preplace netloc adc_top_0_ad7606_convst_b_pin_o 1 2 2 1150J 700 NJ
+preplace netloc adc_top_0_ad7606_cs_n_pin_o 1 2 2 1130J 690 1970J
+preplace netloc adc_top_0_ad7606_osx_pin_o 1 2 2 1180J 740 NJ
+preplace netloc adc_top_0_ad7606_rd_n_pin_o 1 2 2 1040J 720 NJ
+preplace netloc adc_top_0_ad7606_rst_pin_o 1 2 2 1110J 780 NJ
+preplace netloc adc_top_0_adc_ack_o 1 2 1 1030 170n
+preplace netloc adc_top_0_adc_offset_finish_o 1 2 1 1050 190n
+preplace netloc adc_top_0_m0_ia_o 1 2 1 1070 210n
+preplace netloc adc_top_0_m0_ib_o 1 2 1 1080 230n
+preplace netloc adc_top_0_m0_ic_o 1 2 1 1100 250n
+preplace netloc adc_top_0_m1_ia_o 1 2 1 1110 270n
+preplace netloc adc_top_0_m1_ib_o 1 2 1 1120 290n
+preplace netloc adc_top_0_m1_ic_o 1 2 1 1140 310n
+preplace netloc adc_top_0_m2_ia_o 1 2 1 1150 330n
+preplace netloc adc_top_0_m2_ib_o 1 2 1 1160 350n
+preplace netloc adc_top_0_m2_ic_o 1 2 1 1170 370n
+preplace netloc adc_top_0_m3_ia_o 1 2 1 1180 390n
+preplace netloc adc_top_0_m3_ib_o 1 2 1 1190 410n
+preplace netloc adc_top_0_m3_ic_o 1 2 1 1200 430n
+preplace netloc m0_as5047p_spi_miso_pin_i_0_1 1 0 3 20J 220 NJ 220 1130J
+preplace netloc m1_as5047p_spi_miso_pin_i_0_1 1 0 3 30J 210 NJ 210 1060J
+preplace netloc m2_as5047p_spi_miso_pin_i_0_1 1 0 3 40J 230 NJ 230 1040J
+preplace netloc m3_as5047p_spi_miso_pin_i_0_1 1 0 3 60J 240 NJ 240 1090J
+preplace netloc motor_ultra_top_0_adc_convert_req_o 1 1 3 570 -160 1030J -180 1910
+preplace netloc motor_ultra_top_0_m0_as5047p_spi_mosi_pin_o 1 3 1 1950J -60n
+preplace netloc motor_ultra_top_0_m0_as5047p_spi_sck_pin_o 1 3 1 1930J -80n
+preplace netloc motor_ultra_top_0_m0_as5047p_spi_ss_pin_o 1 3 1 1920J -100n
+preplace netloc motor_ultra_top_0_m0_svpwm_u_pin_o 1 3 1 1960J -40n
+preplace netloc motor_ultra_top_0_m0_svpwm_un_pin_o 1 3 1 1980J 10n
+preplace netloc motor_ultra_top_0_m0_svpwm_v_pin_o 1 3 1 1970J -20n
+preplace netloc motor_ultra_top_0_m0_svpwm_vn_pin_o 1 3 1 1930J 70n
+preplace netloc motor_ultra_top_0_m0_svpwm_w_pin_o 1 3 1 1940J -190n
+preplace netloc motor_ultra_top_0_m0_svpwm_wn_pin_o 1 3 1 1910J 60n
+preplace netloc motor_ultra_top_0_m1_as5047p_spi_mosi_pin_o 1 3 1 1950J 120n
+preplace netloc motor_ultra_top_0_m1_as5047p_spi_sck_pin_o 1 3 1 1940J 100n
+preplace netloc motor_ultra_top_0_m1_as5047p_spi_ss_pin_o 1 3 1 1920J 80n
+preplace netloc motor_ultra_top_0_m1_svpwm_u_pin_o 1 3 1 1960J 140n
+preplace netloc motor_ultra_top_0_m1_svpwm_un_pin_o 1 3 1 1990J 200n
+preplace netloc motor_ultra_top_0_m1_svpwm_v_pin_o 1 3 1 1970J 160n
+preplace netloc motor_ultra_top_0_m1_svpwm_vn_pin_o 1 3 1 2000J 220n
+preplace netloc motor_ultra_top_0_m1_svpwm_w_pin_o 1 3 1 1980J 180n
+preplace netloc motor_ultra_top_0_m1_svpwm_wn_pin_o 1 3 1 2010J 240n
+preplace netloc motor_ultra_top_0_m2_as5047p_spi_mosi_pin_o 1 3 1 NJ 330
+preplace netloc motor_ultra_top_0_m2_as5047p_spi_sck_pin_o 1 3 1 2030J 280n
+preplace netloc motor_ultra_top_0_m2_as5047p_spi_ss_pin_o 1 3 1 2020J 260n
+preplace netloc motor_ultra_top_0_m2_svpwm_u_pin_o 1 3 1 NJ 350
+preplace netloc motor_ultra_top_0_m2_svpwm_un_pin_o 1 3 1 NJ 410
+preplace netloc motor_ultra_top_0_m2_svpwm_v_pin_o 1 3 1 NJ 370
+preplace netloc motor_ultra_top_0_m2_svpwm_vn_pin_o 1 3 1 NJ 430
+preplace netloc motor_ultra_top_0_m2_svpwm_w_pin_o 1 3 1 NJ 390
+preplace netloc motor_ultra_top_0_m2_svpwm_wn_pin_o 1 3 1 NJ 450
+preplace netloc motor_ultra_top_0_m3_as5047p_spi_mosi_pin_o 1 3 1 NJ 510
+preplace netloc motor_ultra_top_0_m3_as5047p_spi_sck_pin_o 1 3 1 NJ 490
+preplace netloc motor_ultra_top_0_m3_as5047p_spi_ss_pin_o 1 3 1 NJ 470
+preplace netloc motor_ultra_top_0_m3_svpwm_u_pin_o 1 3 1 NJ 530
+preplace netloc motor_ultra_top_0_m3_svpwm_un_pin_o 1 3 1 NJ 590
+preplace netloc motor_ultra_top_0_m3_svpwm_v_pin_o 1 3 1 NJ 550
+preplace netloc motor_ultra_top_0_m3_svpwm_vn_pin_o 1 3 1 NJ 610
+preplace netloc motor_ultra_top_0_m3_svpwm_w_pin_o 1 3 1 NJ 570
+preplace netloc motor_ultra_top_0_m3_svpwm_wn_pin_o 1 3 1 NJ 630
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 10 540 110 N
+preplace netloc processing_system7_0_FCLK_CLK1 1 1 2 560J -90 1090
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 550 -290n
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 580 90 1060
+preplace netloc axi_smc_M00_AXI 1 2 1 1130 -30n
+preplace netloc axi_smc_M01_AXI 1 2 1 1100 -10n
+preplace netloc axi_smc_M02_AXI 1 2 1 1080 10n
+preplace netloc axi_smc_M03_AXI 1 2 1 1070 30n
+preplace netloc processing_system7_0_DDR 1 1 3 NJ -170 N -170 N
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ -150 N -150 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 530J -110n
+preplace netloc processing_system7_0_UART_0 1 1 3 N -130 1040 -160 1950
+levelinfo -pg 1 0 330 830 1680 2050
+pagesize -pg 1 -db -bbox -sgen -240 -370 2290 1530
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_ps7_cnt":"1"
+}
